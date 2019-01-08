@@ -14,6 +14,7 @@ RUN apt-get install -y --force-yes\
     python3-pip\
     bluetooth\ 
     bluez\
+    libglib2.0-dev\
  && apt-get clean
  
 
