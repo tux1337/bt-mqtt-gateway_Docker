@@ -27,7 +27,7 @@ WORKDIR /opt/bt-mqtt-gateway
 RUN pip3 install -r requirements.txt
 RUN pip3 install python-eq3bt
 
-RUN apt-get remove git && apt-get clean
+RUN apt-get remove git -y && apt-get clean
 
 
 CMD ["/opt/bt-mqtt-gateway/gateway","-d"]
