@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM arm32v7/debian:stretch
 LABEL maintainer="tux1337"
 
 # Let the container know that there is no tty
