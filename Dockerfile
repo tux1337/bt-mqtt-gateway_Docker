@@ -30,4 +30,4 @@ RUN pip3 install python-eq3bt
 RUN apt-get remove git -y && apt-get clean
 
 
-CMD ["/opt/bt-mqtt-gateway/gateway","-d"]
+CMD ["/opt/bt-mqtt-gateway/gateway.py","-d"]
